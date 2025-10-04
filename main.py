@@ -1,0 +1,11 @@
+def prime(x):
+    s=0
+    for i in range(1,x+1):
+        if x%i==0:
+            s+=1
+    return s
+num=int(input())
+if prime(num)==2:
+    print('Prime')
+else:
+    print("No")

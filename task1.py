@@ -10,6 +10,7 @@ for name in people:
         print(name['name'])
 
 people.sort(key=lambda a: a['age'], reverse=True)
-print(people)
+for i in people:
+    print(i)
 
 
